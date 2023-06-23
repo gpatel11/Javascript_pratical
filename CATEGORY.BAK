@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void ravi(int a,int b)
+{
+  int sum;
+  sum=a+b;
+  printf("\n Additoin=%d",sum);
+}
+void main()
+{
+int a,b;
+ printf("\nEnter two number:");
+ scanf("%d %d",&a,&b);
+ ravi(a,b);
+ getch();
+}
